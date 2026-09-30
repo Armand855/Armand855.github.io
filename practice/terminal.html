@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello World!</title>
+    <title>Using and Writing vim!!</title>
     <script src='validate.js'></script>
+     <style>
+       Body{   
+         background-color:LemonChiffon;
+     </style>
 </head>
 <body>
     <header>
-        <h1>Hello World!</h1>
+        <h1>A website to help you learn and understand vim!!!</h1>
     </header>
     <main>
         <section>
-            <h2>About Me</h2>
-            <p>This is my first web page.</p>
+            <p>In this web page I plan to talk about how to access vim from
+            your home directory, moving in vim, and basic vim commands. Lets 
+            start off with how to access vim from your home directory.</p>
+            <ol>
+                <li>First, from your home directory type
+                    " <code>cd desktop</code>" to get to your desktop.</li>
+                <li>next, after your in your in your desktop type
+                    "<code>cd website</code>" to get to your website</li>
+                <li>Finally, type "<code>vim index.html</code>"
+                    into the terminal to access vim.</li>
+            </ol>
+                <p>Now that your in vim,you'll need to know the basic controls
+                of vim. When you enter vim you'll be in normal mode. You can 
+                move around using arrow keys, but you can also move around 
+                using <kbd>h,j,k,l</kbd>. When you first load into vim you also won't be 
+                able to type because you're in normal mode. To exit normal mode
+                click <kbd>I</kbd> to enter insert mode, from there you can type 
+                and edit vim.
+                <p>you should learn how to use it. Heres
+                a list of common but important vim commands they you should 
+                know to write a basic page<p>
+                <ul>
+                    <li><code>&lt;html&gt;</code> is used to start and finish a web
+                            page. All the contents of the page should go 
+                            inbetween the html tags.</li>
+                    <li><code>&lt;p&gt;</code>is used for paragraphs. You type what
+                        you want in the paragraph inbetween the tags.</li>
+                    <li><code>&lt;head&gt;</code> is like a mini html that only 
+                            includes some content of the head like<code>
+                                &lt;title&gt;</code>.</li>
+                    <li><code>&lt;main&gt;</code> is where most of your writing
+                        will go. The <code>&lt;p&gt;</code> tag goes in the 
+                        main tag along with many other important tags later on.
+                </ul>
+                <p>After using what you've learned about Vim you should 
+                hopefully be able to write a simple web page like this:
+<pre><code> &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;Hello World!&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;This is my first web page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre></code></p>
+<p> Finally, when your done editing your html page and want to save your 
+changes you can by going back into normal mode from imput mode by hitting 
+escape(esc). When your in normal mode you can use <kbd>:q</kbd> to quit out of 
+vim without saving,<kbd>:w</kbd> to save while still in vim, and<kbd>:wq</kbd>
+to exit vim while saving. Enjoy making websites!!!</p>
+
         </section>
     </main>
     <footer>
-        <p>Made by me.</p>
     </footer>
 </body>
 </html>
