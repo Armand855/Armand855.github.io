@@ -1,0 +1,34 @@
+
+        body{
+            background-color: LemonChiffon;
+        }
+        table, tr, th, td{
+            border: 1px black solid;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        header,footer{
+            background-color: RebeccaPurple;
+        }
+        footer{
+            color: white;
+            font-size: 2em;
+        }
+        header{
+            background-color: SkyBlue;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .big{
+            font-size: 3em;
+        }
+        #tiny{
+            font-size: 0.5em;
+        }
+        header{
+            border: 5px black solid;
+            margin: 20px;
+            margin-left: 0px;
+            padding: 100px;
+        }
