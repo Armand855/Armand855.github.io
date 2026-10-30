@@ -20,15 +20,27 @@
         .orange{
             background-color: orange;
         }
-        .big{
-            font-size: 3em;
-        }
-        #tiny{
-            font-size: 0.5em;
-        }
         header{
             border: 5px black solid;
             margin: 20px;
             margin-left: 0px;
             padding: 100px;
         }
+        ul{
+         display:flex ;
+        flex-direction:row;
+        list-style: none;
+        padding:0;
+        margin:0;
+        justify-content:space-evenly;
+    }    
+        a{
+            background-color: skyblue;
+            padding:15px;
+            border:2px black solid;
+            text-decoration:none;
+                
+    }
+    a:hover{
+        color: AliceBlue;
+    }
